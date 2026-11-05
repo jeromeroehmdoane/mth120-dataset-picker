@@ -82,6 +82,30 @@ const COLORS={'Kids':'#b45b13','Art':'#8755b5','Sports':'#3575b7','History':'#7a
       "swimming", "gymnastics", "athletics", "track", "biography"
     ],
     provisional: false
+  },
+  {
+    title: "College Mascots",
+    label: "Mascots",
+    categories: ["Sports"],
+    difficulty: 2.5,
+    novelty: 9.0,
+    description:
+      "College athletic nicknames and costumed mascots for NCAA Division I and NAIA schools, with classifications, colors, locations, institution characteristics, and multi-season winning percentages across six sports.",
+    dwhy:
+      "The simplified tab has one row per school and approachable categorical variables; missing performance values and the nested mascot classifications require some care.",
+    nwhy:
+      "Connects the colorful culture of college mascots with geography, school characteristics, and athletic performance, supporting unusual questions about animals, colors, and winning.",
+    url:
+      "https://docs.google.com/spreadsheets/d/16AzW93qYjzgE9qjMnBi56Oh5d6RyuhnXVI-kIXsoobg/edit",
+    keywords: [
+      "college", "university", "mascots", "nicknames", "costumed mascots",
+      "NCAA", "Division I", "NAIA", "sports", "athletics", "teams",
+      "animals", "birds", "cats", "dogs", "humans", "mythical",
+      "colors", "conferences", "public", "private", "geography",
+      "football", "volleyball", "basketball", "baseball", "softball",
+      "wins", "losses", "winning percentage", "school spirit"
+    ],
+    provisional: false
   }
 ].forEach(dataset => {
   if (!DATA.some(existing => existing.title === dataset.title)) {
